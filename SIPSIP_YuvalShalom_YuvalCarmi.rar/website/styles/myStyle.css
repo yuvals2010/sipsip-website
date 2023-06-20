@@ -1,0 +1,587 @@
+﻿#logo, #menu-container {
+    display: inline-block;
+}
+
+#topscreen {
+    margin: 0px 0px 100px 0px;
+}
+
+body {
+    background-image: url(../images/family-cocktaiks1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    direction: rtl;
+    font-family: 'Varela Round';
+    color: white;
+}
+    body > div {
+        width: 1280px;
+        margin: auto;
+        background-color: #00000080;
+        height: auto;
+    }
+    
+    .menu {
+    list-style-type: none;
+    margin: 0px 10px;
+    padding: 10px 0px;
+    background-color: none;
+    font-size: larger;
+    }
+
+    .menu li, .menu h1 {
+        display: inline-block;
+        position: relative;
+    }
+
+#menu-container li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#menu-container li:hover > ul {
+    display: block;
+}
+
+#menu-container ul ul {
+    color: black;
+    font-size: smaller;
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #00000038;
+}
+
+    #menu-container ul ul li {
+        display: block;
+    }
+
+        #menu-container ul ul li a {
+            padding: 10px 20px;
+        }
+
+#menu-container li:hover > a {
+    background-color: white;
+    color: black;
+}
+
+.notactive{
+    cursor:not-allowed;
+}
+
+div > div > img {
+    vertical-align: middle;
+    width: 100%
+}
+
+.mainpic {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+#home {
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh; 
+}
+.hometitle {
+    text-align: center;
+}
+.buttonrow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.buttonpic {
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 30px;
+}
+
+    .buttonpic a {
+        padding: 30px;
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+    }
+
+#sowerbutton {
+    background-image: url(../images/sower-button.jpg);
+}
+
+#sweetbutton {
+    background-image: url(../images/sweet-buttom.jpg);
+}
+
+#bitterbutton {
+    background-image: url(../images/bitter-button.jpg);
+}
+
+#barmensetbutton {
+    background-image: url(../images/barmenset-button.jpg);
+}
+
+#alcoholbutton {
+    background-image: url(../images/alcohol-button.jpg);
+}
+
+#shakerbutton {
+    background-image: url(../images/shaker-button.jpg);
+}
+footer {
+    background-color: black;
+    margin-top: auto;
+    text-align: center;
+}
+
+
+.footer li {
+    display: inline-block;
+    padding: 10px;
+}
+
+footer a {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.breadcrumbs li {
+
+    display: inline-block;
+    padding:0px;
+}
+    .breadcrumbs li a {
+        font-size: 15px;
+        color: white;
+    }
+
+/*sitemap*/
+.map a {
+    font-size: 30px;
+    color: white;
+}
+
+.map ul li {
+    margin: 0px 0px 20px 0px;
+}
+#sitehead {
+    padding: 0px 30px;
+}
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.Slides image {
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.captiontext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 20px 12px;
+    position:center;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+    #gallery{
+        margin:200px
+    }
+
+    .active,
+    .demo:hover {
+        opacity: 1;
+    }
+
+
+
+article, form {
+    padding: 0px 50px;
+}
+
+
+
+/*conectus*/
+#maincontect {
+    background-image: url(../images/main-contect.jpg);
+}
+
+#contentpic {
+    height: 500px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contect {
+    padding: 0px 50px;
+}
+
+#massage {
+    width: 240px;
+    height: 140px;
+}
+
+.designpliceholder {
+    font-family: 'Varela Round';
+    font-size: 15px;
+    padding: 4px 25px;
+}
+
+.requierd {
+    width: 170px;
+    height: 50px;
+}
+
+
+#gender{
+    border:none;
+}
+
+#send{
+    color:black;
+    background-color:white;
+    font-size:30px;
+    font-family:'Varela Round';
+    padding: 10px;
+    margin:40px;
+}
+
+#seniorpic {
+    position: relative;
+    left: 270px;
+    float: left;
+    top: 54px;
+    display: flex;
+    width: 250px;
+    height: auto;
+}
+#datepic {
+    position: relative;
+    left: 20px;
+    float: left;
+    top: 220px;
+    display: flex;
+    width: 250px;
+    height: auto;
+}
+
+#partypic {
+    position: relative;
+    left: -230px;
+    float: left;
+    top: 385px;
+    display: flex;
+    width: 250px;
+    height: auto;
+}
+
+/*alcohol*/
+#mainalcohol {
+    background-image: url(../images/alcohol_bottles.jpg);
+}
+
+#vodkapic1 {
+    position: relative;
+    left: 270px;
+    float: left;
+    top: -40px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+#vodkapic2 {
+    position: relative;
+    left: 120px;
+    float: left;
+    top: 110px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+#vodkapic3 {
+    position: relative;
+    left: -30px;
+    float: left;
+    top: 260px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+#jinpic1 {
+    position: relative;
+    left: 270px;
+    float: left;
+    top: -40px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+#jinpic2 {
+    position: relative;
+    left: 120px;
+    float: left;
+    top: 110px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+#jinpic3 {
+    position: relative;
+    left: -30px;
+    float: left;
+    top: 260px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+#taqilapic1 {
+    position: relative;
+    left: 270px;
+    float: left;
+    top: 0px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+#taqilapic2 {
+    position: relative;
+    left: 120px;
+    float: left;
+    top: 150px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+#taqilapic3 {
+    position: relative;
+    left: -30px;
+    float: left;
+    top: 300px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+#scotchpic1 {
+    position: relative;
+    left: 270px;
+    float: left;
+    top: -40px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+#scotchpic2 {
+    position: relative;
+    left: 120px;
+    float: left;
+    top: 260px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+#scotchpic3 {
+    position: relative;
+    left: -30px;
+    float: left;
+    top: 110px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+/*sitemap*/
+.notactive {
+    cursor: not-allowed;
+}
+
+
+/*sower*/
+aside h2 {
+    text-align: center;
+}
+#mainsower {
+    background-image: url(../images/main-sower.jpg);
+}
+#sowerspic {
+    height: 500px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#margaritapic {
+    position: relative;
+    float: left;
+    left: 320px;
+    top: 0px;
+    width: 350px;
+    height: 350px;
+}
+
+#mohitopic {
+    position: relative;
+    float: left;
+    left: 320px;
+    top: 10px;
+    width: 350px;
+    height: 350px;
+}
+
+#jasminepic {
+    position: relative;
+    float: left;
+    left: 320px;
+    top: 30px;
+    width: 350px;
+    height: 350px;
+}
+
+#sourscotchpic {
+    position: relative;
+    float: left;
+    left: 320px;
+    top: 40px;
+    width: 350px;
+    height: 350px;
+}
+/*about*/
+#mainabout {
+    background-image: url(../images/main-about.jpg);
+}
+.develop {
+    font-weight: bold;
+}
